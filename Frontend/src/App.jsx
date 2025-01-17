@@ -55,7 +55,7 @@ function App() {
           <h1 className="text-2xl font-bold mb-6 text-center">
             Attendance Details
           </h1>
-          ) : "" }
+          ) : " " }
 
           {data.length > 0 && parseInt(rollNumber, 10) < 57 &&
             data.map((data, index) => (
